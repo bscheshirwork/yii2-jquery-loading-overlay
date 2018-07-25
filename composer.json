@@ -1,0 +1,22 @@
+{
+    "name":        "bscheshirwork/yii2-jquery-loading-overlay" ,
+    "description": "Widgets for https://gasparesganga.com/labs/jquery-loading-overlay",
+    "type":        "yii2-extension" ,
+    "keywords":    [ "yii2" , "widget" , "loading overlay" ] ,
+    "license":     "MIT" ,
+    "authors":     [
+        {
+            "name":  "BSCheshir" ,
+            "email": "bscheshir.work@gmail.com"
+        }
+    ] ,
+    "require":     {
+        "yiisoft/yii2": ">=2.0.15" ,
+        "bower-asset/gasparesganga-jquery-loading-overlay": "^2.1.5"
+    } ,
+    "autoload":    {
+        "psr-4": {
+            "bscheshirwork\\jlo\\": "src"
+        }
+    }
+}
